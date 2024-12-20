@@ -28,3 +28,7 @@
 + From Staged
     + `git reset HEAD .`
     + `git reset HEAD <file_name>`
+
+### Tag
+- `git tag -l '<some_text>*`
+> Returns all texts that starting with some_text
