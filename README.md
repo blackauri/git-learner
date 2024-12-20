@@ -14,7 +14,7 @@
 - `git log --pretty=oneline`
 - `git log --format:"%h - %an, %ar : %s"`
 
-> 614edb4 - Mamuka, 12 minutes ago : delete
+> 614edb4 - Mamuka, 12 minutes ago : ISSUE-00 update readme file
 
 
 - `git log --graph`
