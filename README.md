@@ -8,8 +8,8 @@
 - git push
 
 ### logs
-- git log
-- git log --pretty=oneline
-- git log --pretty=format:"%h - %an, %ar : %s"
+- git log `-3` shows last 3 commit
+- git log --pretty=oneline `"%h - %an, %ar : %s"`
+- git log --graph
 
 > 614edb4 - Mamuka, 12 minutes ago : delete
