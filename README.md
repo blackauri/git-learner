@@ -1,6 +1,6 @@
 # git-learner
 
-#### Basics
+### Basics
 
 - `git status`
 - `git add .` or  `git add <file_name>`
@@ -30,27 +30,42 @@
     + `git reset HEAD <file_name>`
 
 
-#### Visual Tools
+### Visual Tools
 - `gitk`
 
 
 ### Tag
 - `git tag -l '<some_text>*`
-> Returns all texts that starting with some_text
+> Returns all Tags that starting with some_text
 
 - `git push origin <tag_name>` or `git push origin --tags`
 
-#### Remote
+
+### Remote
 - `git remote show origin`
 - `git remote -v`
 - `git fetch <remote_name>`
 - `git push remote master`
 
-#### Branches
+
+### Branches
+- `git branch`
 - `git branch <branch_name>`
 - `git checkout <branch_name>`
 - `git checkout -b <branch_name>`
+- `git branch --merged` or `--no-merged`
+- `git branch -d <branch_name>` or `git branch -D <branch_name>`
 
 
 ### Aliases
 - `git config --global alias.<alias_name> <comand_name>`
+
+
+### Merge
+> Merge <branch_name> into master
+- `git checkout master` 
+- `git merge <branch_name>`
+> After fix conflicts
+- `git add .`
+
+
