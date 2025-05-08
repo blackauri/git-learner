@@ -1,5 +1,7 @@
 # git-learner
 
+- `git submodule update --init --recursive`
+
 ### Basics
 
 - `git status`
