@@ -31,6 +31,9 @@
     + `git reset HEAD .`
     + `git reset HEAD <file_name>`
 
++ Remove untracked files
+    + `git clean -d`
+
 
 ### Visual Tools
 - `gitk`
